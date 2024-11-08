@@ -9,7 +9,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold">Beinsa Projekt</h1>
           <p className="text-md">Vorträge und mehr von Beinsa Duno</p>
           <Link href="./home" >
-          <Button className="text-xl w-40 font-bold bg-sky-800 items-center hover:bg-sky-950" >Zum Projekt</Button>
+          <Button className="text-xl w-40 font-bold text-white bg-sky-800 items-center hover:bg-sky-950" >Zum Projekt</Button>
           </Link>
         </div>
       </main>
