@@ -10,7 +10,7 @@ export default function NotFound() {
     <div className="px-2 w-full">
         <div className="mx-auto py-2 flex flex-col justify-center items-center gap-4">
 
-      <h2 className="text-2xl">Page not Found</h2>
+      <h2 className="text-2xl">Seite nicht gefunden</h2>
       <Image
         className="m-0 rounded-xl"
         src={"/images/not-found-1024x1024.png"}
