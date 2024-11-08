@@ -36,7 +36,7 @@ const timelineEvents: TimelineEvent[] = [
     date: "",
     title: "Artikel in der Zeitschrift",
     description:
-      " in der Petar Danov folgende Aussage macht: „Ich kann zwei Gründe nennen, die mich zu meiner Bekehrung geführt haben: Der erste Grund war das Lesen religiöser Bücher und der zweite war Krankheit. Das hat mir geholfen, mich ganz Christus zu weihen. Als ich noch jung war, fühlte ich eine in mir arbeitenden Kraft, die mich zu einem Ziel führte, das ich noch nicht kannte. Mein Vater hatte einige Bücher, die er mir vorlas. Ich fühlte mich sehr unglücklich, aber ich folgte der Wahrheit nicht. 1880 schickte mich mein Vater in das Gymnasium nach Warna. Während der fünf Jahre, die ich dort verbrachte, fühlte ich den inneren Kampf zwischen dem Guten und dem Bösen. Oft habe ich mich mit manchen Brüdern über die Wahrheit unterhalten, aber mein sündhaftes Herz folgte Christus nicht. Zu diesem Zeitpunkt befand ich mich in einem miserablen Zustand. Ich wurde krank und diese Krankheit brachte mich fast an den Tod. Als ich mich so hilflos fühlte und dachte, dass ich bald vor Gott erscheinen werde, traf ich die Entscheidung, Christus zu folgen und mit Tränen in den Augen flehte ich um die Vergebung meiner Sünden. Bald danach wurde ich gesund. Mein Wunsch war, für immer Christus zu gehören und von Ihm zu zeugen.“",
+      "in der Petar Danov folgende Aussage macht: „Ich kann zwei Gründe nennen, die mich zu meiner Bekehrung geführt haben: Der erste Grund war das Lesen religiöser Bücher und der zweite war Krankheit. Das hat mir geholfen, mich ganz Christus zu weihen. Als ich noch jung war, fühlte ich eine in mir arbeitenden Kraft, die mich zu einem Ziel führte, das ich noch nicht kannte. Mein Vater hatte einige Bücher, die er mir vorlas. Ich fühlte mich sehr unglücklich, aber ich folgte der Wahrheit nicht. 1880 schickte mich mein Vater in das Gymnasium nach Warna. Während der fünf Jahre, die ich dort verbrachte, fühlte ich den inneren Kampf zwischen dem Guten und dem Bösen. Oft habe ich mich mit manchen Brüdern über die Wahrheit unterhalten, aber mein sündhaftes Herz folgte Christus nicht. Zu diesem Zeitpunkt befand ich mich in einem miserablen Zustand. Ich wurde krank und diese Krankheit brachte mich fast an den Tod. Als ich mich so hilflos fühlte und dachte, dass ich bald vor Gott erscheinen werde, traf ich die Entscheidung, Christus zu folgen und mit Tränen in den Augen flehte ich um die Vergebung meiner Sünden. Bald danach wurde ich gesund. Mein Wunsch war, für immer Christus zu gehören und von Ihm zu zeugen.“",
     image: "/images/beinsa-schule.jpg",
   },
   {
@@ -51,7 +51,7 @@ const timelineEvents: TimelineEvent[] = [
     title: "Priester und Lehrer in Hotanza",
     description:
       "Sein Zeugnis wurde von dem Leiter der methodistischen Mission in Ruse E. Ф. Lounsbury (Elford Franklin Lounsbury, 1845-1925) bestätigt, um als methodistischer Priester anerkannt zu werden. Die Mission schickte Petar Danov in das Dorf Hotantsa in der Region Ruse, um dort als Prediger und Lehrer an der evangelischen Sabbatschule zu arbeiten, wo er ein Schuljahr lang - 1887 bis 1888 - tätig war. Er war der erste evangelische Lehrer und der erste evangelische Pfarrer in Chotanets.",
-    image: "/images/beinsa-hotanza.jpg",
+    image: "/images/Beinsa-hotanza.jpg",
   },
   {
     date: "1888 - 1894",
