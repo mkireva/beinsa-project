@@ -10,7 +10,6 @@ interface TimelineEventProps {
   title: string;
   description: string;
   image?: string;
-
   index: number;
 }
 
