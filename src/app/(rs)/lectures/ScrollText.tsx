@@ -62,7 +62,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="text-2xl font-bold mb-4">
           Systematisierung der Vorträge
         </h2>
         <p className="text-lg">
@@ -82,7 +82,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Zusammenkunftsvorträge</h2>
+        <h2 className="text-2xl font-bold mb-4">Zusammenkunftsvorträge</h2>
         <p className="text-lg">
           Zusammenkunftsvorträge – das sind Vorträge, Anleitungen und
           Erklärungen, die bei den Zusammenkünften im August von 1906 bis 1944
@@ -121,7 +121,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Sonntagsvorträge</h2>
+        <h2 className="text-2xl font-bold mb-4">Sonntagsvorträge</h2>
         <p className="text-lg">
           Die Sonntagsvorträge wurden vor einem breiten und heterogenen Publikum
           von 1914 bis 1944 gehalten. Sie bauen auf der Exegese biblischer Texte
@@ -153,7 +153,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Donnerstagsvorträge</h2>
+        <h2 className="text-2xl font-bold mb-4">Donnerstagsvorträge</h2>
         <p className="text-lg">
           Die Donnerstagsvorträge – „Die große Mutter“ sind Vorträge, die vor
           Ehefrauen, Müttern, Lehrerinnen und Erzieherinnen gehalten wurden,
@@ -170,7 +170,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Allgemeine Okkultklasse</h2>
+        <h2 className="text-2xl font-bold mb-4">Allgemeine Okkultklasse</h2>
         <p className="text-lg">
           Die Allgemeine Okkultklasse umfasst 31 Serien von 1922 bis 1944. Es
           werden Themen, Übungen und Aufgaben gegeben. 1922 eröffnet Meister
@@ -197,7 +197,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Jugendokkultklasse</h2>
+        <h2 className="text-2xl font-bold mb-4">Jugendokkultklasse</h2>
         <p className="text-lg">
           Die Jugendokkultklasse wurde von 1922 bis einschließlich 1944 jeden
           Freitag im Laufe von 22 Jahren gehalten. In der Schule des Meisters
@@ -228,7 +228,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Morgenwort</h2>
+        <h2 className="text-2xl font-bold mb-4">Morgenwort</h2>
         <p className="text-lg">
           Am 21. September 1930 beginnt der Meister sonntags das Morgenwort zu
           halten. Das Morgenwort ist ein Teil des Wortes, das auch sonntags aber
@@ -243,7 +243,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Außerodernliche Vorträge</h2>
+        <h2 className="text-2xl font-bold mb-4">Außerodernliche Vorträge</h2>
         <p className="text-lg">
           Die außerordentlichen Vorträge wurden bei besonderen Anlässen
           gehalten: an Neujahr, am 22. März, am 22. September, bei allgemeinen
@@ -257,7 +257,7 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-3xl font-bold mb-4">Testament der Liebe</h2>
+        <h2 className="text-2xl font-bold mb-4">Testament der Liebe</h2>
         <p className="text-lg">
           Die Vorträge „Das Testament der Liebe“, die in drei Bänden publiziert
           wurden, sind das letzte Wort des Meisters. Sie wurden im Dorf

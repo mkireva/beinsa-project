@@ -8,6 +8,7 @@ export default function Home() {
         <div className="flex flex-col gap-6 p-12 items-center rounded-xl bg-sky-700/80 w-2/3 sm:max-w-3/4 mx-auto text-white sm:text-2xl">
           <h1 className="text-4xl font-bold">Beinsa Projekt</h1>
           <p className="text-md">Vorträge und mehr von Beinsa Duno</p>
+          <p className="text-md">Die Seite befindet sich noch in der Entwicklung.</p>
           <Link href="./home" >
           <Button className="text-xl w-40 font-bold text-white bg-sky-800 items-center hover:bg-sky-900" >Zum Projekt</Button>
           </Link>
