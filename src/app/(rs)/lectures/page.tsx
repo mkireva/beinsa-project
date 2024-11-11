@@ -20,7 +20,7 @@ export default function Lectures() {
         </div>
       </div>
       <h1 className="text-4xl font-bold mt-10">Vorträge</h1>
-      <div className="">
+      <div>
         <ScrollText />
       </div>
     </div>
