@@ -10,7 +10,6 @@ export function Header() {
       <div className="flex h-8 items-center justify-between w-full">
         <div className="flex items-center gap-2">
           <NavButton href="/home" label="Home" icon={BookOpen} />
-
           <Link
             href="/home"
             className="flex justify-center items-center gap-2 ml-0"

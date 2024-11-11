@@ -50,7 +50,7 @@ const SmoothScrollText: React.FC<SmoothScrollTextProps> = ({
 
 export default function Component() {
   return (
-    <div className="min-h-screen p-2 space-y-12">
+    <div className="min-h-screen p-4 space-y-12">
       <SmoothScrollText>
         <p className="text-lg font-medium italic leading-relaxed text-muted-foreground">
           Heute wird den Menschen die göttliche Lehre gepredigt. Es ist die

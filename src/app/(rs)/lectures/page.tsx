@@ -19,7 +19,9 @@ export default function Lectures() {
           />
         </div>
       </div>
-      <h1 className="text-4xl font-bold mt-10">Vorträge</h1>
+
+      <h1 className="text-4xl font-bold mt-14 mb-8">Vorträge</h1>
+
       <div>
         <ScrollText />
       </div>
