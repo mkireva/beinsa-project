@@ -1,12 +1,25 @@
+import { BookGrid } from "@/components/books/book-grid";
+
 export const metadata = {
-    title: "Downloads",
-  };
-  
-  export default function Downloads() {
-    return (
-      <div className="flex flex-col items-center justify-center gap-4 py-20">
-        <h1 className="text-4xl font-bold">Downloads</h1>
-        <p className="text-lg">Die Seite ist im Aufbau.</p>
+  title: "Downloads",
+};
+
+export default function Downloads() {
+  return (
+    <main className="min-h-screen p-6 md:p-8 lg:p-12">
+      <div className="max-w-7xl mx-auto space-y-8">
+        <div className="space-y-2">
+          <h1 className="text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
+            Downloads
+          </h1>
+          <p className="text-muted-foreground">
+            Entdecken Sie Ihr nächstes Lieblingsbuch aus unserer Sammlung
+          </p>
+        </div>
+        <div className="p-6 md:p-8 lg:p-12 bg-zinc-100/50 dark:bg-neutral-950 rounded-xl">
+          <BookGrid />
+        </div>
       </div>
-    );
-  }
+    </main>
+  );
+}
