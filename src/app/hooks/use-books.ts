@@ -66,7 +66,7 @@ export function useBooks() {
         },
         {
           id: "6",
-          title: "Er kommt - Frühe Vorträge",
+          title: "Frühe Vorträge",
           author: "Beinsa Duno",
           year: 2025,
           coverUrl:
