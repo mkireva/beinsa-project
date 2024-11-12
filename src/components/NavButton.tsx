@@ -16,7 +16,7 @@ export function NavButton({ icon: Icon, label, href }: Props) {
       size="icon"
       aria-label={label}
       title={label}
-      className="rounded-full text-gray-700"
+      className="rounded-full text-gray-700 "
       asChild
     >
       {href ? (

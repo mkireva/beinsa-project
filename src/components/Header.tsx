@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { BookOpen, ChevronRightIcon, MenuIcon, UsersRound } from "lucide-react";
-import { ModeToggle } from "@/components/ModeToggle";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { NavButton } from "./NavButton";
 import {
   DropdownMenu,
@@ -32,51 +32,51 @@ export function Header() {
           <div className="flex  items-center">
             <Link
               href="/bio"
-              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-md  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
+              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
               title="bio"
             >
-              <h1 className="hidden sm:block text-md  m-0 mt-1">Biographie</h1>
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">Biographie</h1>
             </Link>
             <Link
               href="/lectures"
-              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-md  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
+              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
               title="lectures"
             >
-              <h1 className="hidden sm:block text-md  m-0 mt-1">Vorträge</h1>
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">Vorträge</h1>
             </Link>
             <Link
               href="/music"
-              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-md  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
+              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
               title="Downloads"
             >
-              <h1 className="hidden sm:block text-md  m-0 mt-1">Musik</h1>
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">Musik</h1>
             </Link>
             <Link
               href="/paneurhythmie"
-              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-md  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
+              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
               title="lectures"
             >
-              <h1 className="hidden sm:block text-md  m-0 mt-1">
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">
                 Paneurhythmie
               </h1>
             </Link>
             <Link
               href="/downloads"
-              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-md  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
+              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
               title="Downloads"
             >
-              <h1 className="hidden sm:block text-md  m-0 mt-1">Downloads</h1>
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">Downloads</h1>
             </Link>
             <Link
               href="/blog"
-              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-md  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
+              className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
               title="blog"
             >
-              <h1 className="hidden sm:block text-md  m-0 mt-1">Blog</h1>
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">Blog</h1>
             </Link>
           </div>
           <NavButton href="/users" label="users" icon={UsersRound} />
-          <ModeToggle />
+          <ThemeToggle/>
           <div className=" items-center gap-2 block sm:hidden ">
             <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
               <DropdownMenuTrigger asChild>
@@ -93,7 +93,7 @@ export function Header() {
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
                     href="/"
-                    className="flex w-full items-center justify-between py-2 px-4 text-md  font-medium hover:bg-muted"
+                    className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
@@ -104,7 +104,7 @@ export function Header() {
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
                     href="/bio"
-                    className="flex w-full items-center justify-between py-2 px-4 text-md  font-medium hover:bg-muted"
+                    className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
@@ -115,7 +115,7 @@ export function Header() {
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
                     href="/lectures"
-                    className="flex w-full items-center justify-between py-2 px-4 text-md  font-medium hover:bg-muted"
+                    className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
@@ -126,7 +126,7 @@ export function Header() {
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
                     href="/music"
-                    className="flex w-full items-center justify-between py-2 px-4 text-md  font-medium hover:bg-muted"
+                    className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
@@ -137,7 +137,7 @@ export function Header() {
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
                     href="/downloads"
-                    className="flex w-full items-center justify-between py-2 px-4 text-md  font-medium hover:bg-muted"
+                    className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
@@ -148,7 +148,7 @@ export function Header() {
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
                     href="/blog"
-                    className="flex w-full items-center justify-between py-2 px-4 text-md  font-medium hover:bg-muted"
+                    className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
