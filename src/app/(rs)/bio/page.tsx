@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function Biographie() {
   return (
-    <div>
+    <>
       <Timeline />
-    </div>
+    </>
   );
 }
