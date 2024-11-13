@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Ghost, LogIn } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
           <p className="text-md">Vorträge und mehr von Beinsa Duno</p>
           <p className="text-md">Die Seite befindet sich noch in der Entwicklung.</p>
           <Link href="./home" >
-          <Button className="text-xl w-40 font-bold text-white bg-sky-800 items-center hover:bg-sky-900" >Zum Projekt</Button>
+          <Button className="text-xl " variant="ghost"><LogIn className="w-22 h-22" /> Enter</Button>
           </Link>
         </div>
       </main>
