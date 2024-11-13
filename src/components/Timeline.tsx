@@ -188,10 +188,9 @@ export function Timeline() {
 
     return () => observer.disconnect();
   }, []);
-
   return (
-    <div ref={timelineRef} className="max-w-7xl mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold text-center mb-16 animate-fade-up">
+    <div ref={timelineRef} className="max-w-7xl mx-auto px-4 py-8 sm:py-16">
+      <h2 className="text-2xl sm:text-4xl font-bold text-center mb-8 sm:mb-16 animate-fade-up">
         Biographie
       </h2>
       <div className="relative">

@@ -8,32 +8,33 @@ export const metadata = {
 
 export default function Lectures() {
   return (
-    <div className="flex flex-col items-center justify-center py-10">
-      <div className="w-full rounded-lg items-center justify-center">
-        <div className="w-auto h-96 relative ">
+    <div className="flex flex-col items-center justify-center py-6 md:py-10 px-4 md:px-8">
+      <div className="w-full max-w-6xl mx-auto">
+        <div className="w-full h-[250px] md:h-[400px] relative">
           <div
             className={cn(
-              "group relative overflow-hidden rounded-lg h-[400px]",
+              "group relative overflow-hidden rounded-lg h-full",
               "shadow-lg transition-all duration-500",
               "md:col-start-2"
             )}
           >
             <div className="absolute inset-0">
               <Image
-                loading={"lazy"}
+                priority
                 fill
                 src={"/images/salona.jpg"}
                 alt={"Beisa Duno"}
                 className="rounded-lg object-cover transition-transform duration-500 group-hover:scale-110"
-              />{" "}
-            </div>{" "}
+                sizes="(max-width: 768px) 100vw, 1200px"
+              />
+            </div>
           </div>
         </div>
       </div>
 
-      <h1 className="text-4xl font-bold mt-14 mb-8">Vorträge</h1>
+      <h1 className="text-2xl md:text-4xl font-bold mt-8 md:mt-14 mb-6 md:mb-8">Vorträge</h1>
 
-      <div>
+      <div className="w-full max-w-4xl mx-auto">
         <ScrollText />
       </div>
     </div>

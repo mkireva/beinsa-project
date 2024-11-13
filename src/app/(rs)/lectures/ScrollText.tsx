@@ -50,9 +50,9 @@ const SmoothScrollText: React.FC<SmoothScrollTextProps> = ({
 
 export default function Component() {
   return (
-    <div className="min-h-screen p-4 space-y-12">
+    <div className="min-h-screen p-4 md:p-8 space-y-8 md:space-y-12 max-w-4xl mx-auto">
       <SmoothScrollText>
-        <p className="text-lg font-medium italic leading-relaxed text-muted-foreground">
+        <p className="text-base md:text-lg font-medium italic leading-relaxed text-muted-foreground">
           Heute wird den Menschen die göttliche Lehre gepredigt. Es ist die
           Lehre Christi. Sie ist für diejenigen, die ein tiefes Verständnis des
           Lebens haben. Sie ist für alle Menschen, für die ganze Menschheit, für
@@ -62,17 +62,17 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
           Systematisierung der Vorträge
         </h2>
-        <p className="text-lg">
+        <p className="text-base md:text-lg">
           Während seiner fast 50-jährigen Tätigkeit hält Meister Beinsa Duno
           über 4000 Vorträge. Das erste und einzige Buch, das Beinsa Duno 1896
-          schreibt, ist „Wissenschaft und Erziehung“. Andere seiner Vorträge und
-          Artikel sind: „Die Geheimnisse des Geistes“, „Hio-eli-meli-mesail“,
-          „Aufruf an mein Volk“, „Die Zeugnisse Gottes“, „Sieben Gespräche mit
-          dem Geist“, „Die drei Dinge“, „Gedanken und Anleitungen“, „Die gute
-          Zeit“, „Der Eigenwille“. In der Zeitschrift „Rodina“ wurden ein Zyklus
+          schreibt, ist „Wissenschaft und Erziehung". Andere seiner Vorträge und
+          Artikel sind: „Die Geheimnisse des Geistes", „Hio-eli-meli-mesail",
+          „Aufruf an mein Volk", „Die Zeugnisse Gottes", „Sieben Gespräche mit
+          dem Geist", „Die drei Dinge", „Gedanken und Anleitungen", „Die gute
+          Zeit", „Der Eigenwille". In der Zeitschrift „Rodina" wurden ein Zyklus
           mit Artikeln über Phrenologie sowie andere Vorträge und Dialoge
           publiziert. Ein Großteil der Vorträge des Meisters Beinsa Duno stellt
           ein reiches Erbe von Büchern dar, das durch die Entzifferung
@@ -82,8 +82,8 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Zusammenkunftsvorträge</h2>
-        <p className="text-lg">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Zusammenkunftsvorträge</h2>
+        <p className="text-base md:text-lg">
           Zusammenkunftsvorträge – das sind Vorträge, Anleitungen und
           Erklärungen, die bei den Zusammenkünften im August von 1906 bis 1944
           gehalten wurden. Ein Teil der Zusammenkunftsvorträge sind die
@@ -101,10 +101,10 @@ export default function Component() {
           enthalten. Sie sind das Tor zur Erkenntnis der fünf göttlichen
           Prinzipien: Liebe, Weisheit, Wahrheit, Gerechtigkeit und Tugend. Hier
           ist einer der in dieser Hinsicht wichtigsten Vorträge mit dem Titel:
-          „Der Weg des Schülers.“ In ihm wird der Weg der Evolution im Kontext
+          „Der Weg des Schülers." In ihm wird der Weg der Evolution im Kontext
           eines allgemeinen kosmischen Plans dargestellt.
         </p>
-        <p className="text-lg mt-3">
+        <p className="text-base md:text-lg mt-3">
           Zum ersten Mal führt der Meister Petar Danov seine Schüler 1929 zu
           einem Lager bei den Sieben Rila-Seen. Die Vorträge, die im
           Rila-Gebirge gehalten wurden, nennen sich auch Rila-Vorträge. In ihnen
@@ -121,8 +121,8 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Sonntagsvorträge</h2>
-        <p className="text-lg">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Sonntagsvorträge</h2>
+        <p className="text-base md:text-lg">
           Die Sonntagsvorträge wurden vor einem breiten und heterogenen Publikum
           von 1914 bis 1944 gehalten. Sie bauen auf der Exegese biblischer Texte
           auf. Der Zyklus, der Sonntagvorträge betitelt wurde, ist ein Zyklus
@@ -137,7 +137,7 @@ export default function Component() {
           indem jedes Thema unterschiedlichen Unterthemen breitgefächert
           behandelt wird.
         </p>
-        <p className="text-lg">
+        <p className="text-base md:text-lg mt-3">
           Für das richtige Begreifen und Anwenden des Wortes Gottes benötigt der
           Schüler ein geistiges Wissen und ein tiefes Verständnis für seine
           innere Bedeutung. Die Sonntagsvorträge sind eine kostbare Quelle von
@@ -145,17 +145,17 @@ export default function Component() {
           über die göttliche Vollkommenheit und ihre Anwendung im Leben des
           einzelnen Menschen und der Gesellschaft. Die Grundlage der göttlichen
           Lehre sind die Prinzipien der Liebe, der Weisheit und der Wahrheit.
-          Mit dem ersten stenographierten Sonntagsvortrag „Siehe, der Mensch!“
-          beginnt ein Zyklus von sechs Bänden, der „Kraft und Leben“ genannt
+          Mit dem ersten stenographierten Sonntagsvortrag „Siehe, der Mensch!"
+          beginnt ein Zyklus von sechs Bänden, der „Kraft und Leben" genannt
           wurde. In ihnen sind nach den eigenen Worten des Meisters Petar Danov
-          die Grundlagen seiner Lehre enthalten, die er die “Neue Lehre der
-          Universellen Weißen Bruderschaft “nannte.
+          die Grundlagen seiner Lehre enthalten, die er die "Neue Lehre der
+          Universellen Weißen Bruderschaft "nannte.
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Donnerstagsvorträge</h2>
-        <p className="text-lg">
-          Die Donnerstagsvorträge – „Die große Mutter“ sind Vorträge, die vor
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Donnerstagsvorträge</h2>
+        <p className="text-base md:text-lg">
+          Die Donnerstagsvorträge – „Die große Mutter" sind Vorträge, die vor
           Ehefrauen, Müttern, Lehrerinnen und Erzieherinnen gehalten wurden,
           also vor denjenigen, die die positive Umwandlung der Gesellschaft
           unterstützen. Die Vorträge wurden jeden Donnerstag gehalten. Der
@@ -163,15 +163,15 @@ export default function Component() {
           Zyklus wurde am 30. Juni 1932 gehalten. Die Vorträge wurden im Laufe
           von 16 Jahren donnerstags in den Nachmittagstunden gehalten. Eine
           Ausnahmen machen fünf von ihnen, weshalb der Meister sie die
-          Donnerstagsvorträge nennt. Sie sind im Sammelband „Die große Mutter“
+          Donnerstagsvorträge nennt. Sie sind im Sammelband „Die große Mutter"
           erschienen und enthalten Unterweisungen, Belehrungen und Methoden für
           die geistige Praxis. In ihnen sind viele der esoterischen Begriffe und
           Symbole geklärt.{" "}
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Allgemeine Okkultklasse</h2>
-        <p className="text-lg">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Allgemeine Okkultklasse</h2>
+        <p className="text-base md:text-lg">
           Die Allgemeine Okkultklasse umfasst 31 Serien von 1922 bis 1944. Es
           werden Themen, Übungen und Aufgaben gegeben. 1922 eröffnet Meister
           Petar Danov die Schule der Weißen Bruderschaft. Die tiefgreifende
@@ -197,8 +197,8 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Jugendokkultklasse</h2>
-        <p className="text-lg">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Jugendokkultklasse</h2>
+        <p className="text-base md:text-lg">
           Die Jugendokkultklasse wurde von 1922 bis einschließlich 1944 jeden
           Freitag im Laufe von 22 Jahren gehalten. In der Schule des Meisters
           Petar Danov werden gleichzeitig zwei Klassen eröffnet: die Allgemeine
@@ -228,13 +228,13 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Morgenwort</h2>
-        <p className="text-lg">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Morgenwort</h2>
+        <p className="text-base md:text-lg">
           Am 21. September 1930 beginnt der Meister sonntags das Morgenwort zu
           halten. Das Morgenwort ist ein Teil des Wortes, das auch sonntags aber
           um 5 Uhr morgens gehalten wurde. Die Vorträge dieses Zyklus sind an
           einen kleineren Zuhörerkreis gerichtet. Das erste Morgenwort, „Die
-          absolute Wahrheit“, wurde am 21. September 1931 gehalten. Der Meister
+          absolute Wahrheit", wurde am 21. September 1931 gehalten. Der Meister
           spricht über Kapitel aus der Bibel, indem er ihre geistigen
           Botschaften in die heutigen Sprache übersetzt. Die Heiligen Texte
           haben in sich eine tiefe Bedeutung, die manchmal für den menschlichen
@@ -243,8 +243,8 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Außerodernliche Vorträge</h2>
-        <p className="text-lg">
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Außerodernliche Vorträge</h2>
+        <p className="text-base md:text-lg">
           Die außerordentlichen Vorträge wurden bei besonderen Anlässen
           gehalten: an Neujahr, am 22. März, am 22. September, bei allgemeinen
           Festen und anderen Gelegenheiten, die in getrennten Broschüren
@@ -257,9 +257,9 @@ export default function Component() {
         </p>
       </SmoothScrollText>
       <SmoothScrollText>
-        <h2 className="text-2xl font-bold mb-4">Testament der Liebe</h2>
-        <p className="text-lg">
-          Die Vorträge „Das Testament der Liebe“, die in drei Bänden publiziert
+        <h2 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Testament der Liebe</h2>
+        <p className="text-base md:text-lg">
+          Die Vorträge „Das Testament der Liebe", die in drei Bänden publiziert
           wurden, sind das letzte Wort des Meisters. Sie wurden im Dorf
           Martschaevo und in Sofia vom 19. März 1944 bis zum 20. Dezember 1944
           gehalten.
