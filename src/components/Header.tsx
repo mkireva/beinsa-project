@@ -26,7 +26,9 @@ export function Header() {
             href="/home"
             className="flex justify-center items-center gap-2 ml-0"
             title="Home"
-          ></Link>
+          >
+            Beinsa.de
+          </Link>
         </div>
         <div className="flex items-center">
           <div className="flex  items-center">
@@ -76,7 +78,7 @@ export function Header() {
             </Link>
           </div>
           <NavButton href="/users" label="users" icon={UsersRound} />
-          <ThemeToggle/>
+          <ThemeToggle />
           <div className=" items-center gap-2 block sm:hidden ">
             <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
               <DropdownMenuTrigger asChild>
