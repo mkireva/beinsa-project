@@ -65,7 +65,7 @@ const timelineEvents: TimelineEvent[] = [
     title: "Studium in der USA",
     description:
       "Am 12. Oktober 1892 wurde Petar Danov ohne Prüfung als Sonderstudent an der Theologischen Fakultät der Universität Boston unter der Nummer 1615 immatrikuliert. Am 15. April 1893 schloss er sein Studium mit der Diplomarbeit zum Thema „Die Wanderung der germanischen Stämme und ihre Bekehrung zum Christentum“ bei Profs. Luther T. Luther Tracy Townsend (1838 - 1922).",
-    image: "/images/beinsa-usa.jpg",
+    image: "/images/beinsa-usa1.jpg",
   },
   {
     date: "1888 - 1894",
