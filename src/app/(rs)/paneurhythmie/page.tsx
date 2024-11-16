@@ -69,7 +69,7 @@ const lectureSections: Section[] = [
     ],
   },
   {
-    title: "Paneurhythmie als methode der Selbsterziehung",
+    title: "Paneurhythmie als Methode der Selbsterziehung",
     content: [
       "Die Paneurhythmie regt den Menschen an, organisiert, harmonisiert, koordiniert seine inneren Kräfte und konzentriert sie auf ein vernünftiges Leben. Daher können wir behaupten, dass sie eine Methode zur Selbsterziehung und zur Erziehung vernünftiger Wesen ist.",
       "In den alten esoterischen Schulen wurden die Lieder von Bewegung begleitet. Dort wusste man, welche mächtigen Kräfte durch die Vereinigung von Worten, Musik und Bewegung geweckt werden können. Man äußerte bestimmte erhabene Worte, wobei man sie mit einem Lied und besonderen Bewegungen untermalte. In diesen Schulen war die Paneurhythmie eine Erziehungsmethode aller Schüler. Sie wurden durch rhythmische Bewegungen, verbunden mit bestimmten Ideen und Gesang, erzogen.",

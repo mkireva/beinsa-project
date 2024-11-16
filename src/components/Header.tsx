@@ -26,9 +26,7 @@ export function Header() {
             href="/home"
             className="flex justify-center items-center gap-2 ml-0"
             title="Home"
-          >
-            Beinsa.de
-          </Link>
+          ></Link>
         </div>
         <div className="flex items-center">
           <div className="flex  items-center">
