@@ -23,7 +23,7 @@ const lectureSections: Section[] = [
     ],
   },
   {
-    title: "Danovs Lieder als Kammerformen",
+    title: "Okkulte Musikübungen",
     content: [
       "Petar Danov misst der Musik eine besondere Bedeutung bei. Denn sie ist eine der wichtigsten Methoden innerhalb der okkulten Schule, die vorweigernd der Selbsterziehung und kultivierung geisiger Qualitäten dient. Während seiner Tätigkeit komponiert Petar Danov ca 190 Lieder und Meldodien, die er okkulte Übungen nannte. Diese Musik, obwohl sie auf den ersten Blick einfach erscheint, hat eine mächtige Wirkkraft auf dem Zuhörer und Interpreten, die sich erst in der Praxis und insbesondere beim mehrmaligen Wiederholen der einzelen Melodien entfalten kann. Der Gründ für diese Wirkkraft ist die einzigartige Harmonie zwischen Musik und Text, die sich in einer besonderen Weise auf dem Zuhörer auswirken. Denn nur derjenige kann diese Musik wertschätzen, der selbst Erfahrung mit ihr gemacht hat. Danovs Musik ist keine Musik der großen Formen. Die Lieder stellen kleine Kammerformern dar, in denen verschiedene Bilder und Symbole dargestelltwerden, die Wegweiser im Leben hinsichlich der geistigen Entwicklung des Menschen dienen.",
     ],
