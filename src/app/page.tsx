@@ -11,7 +11,7 @@ export default function Home() {
           <p className="text-md">Vorträge und mehr von Beinsa Duno</p>
           <p className="text-md">Die Seite befindet sich noch in der Entwicklung.</p>
           <Link href="./home" >
-          <Button className="text-xl " variant="ghost"><LogIn className="w-22 h-22" /> Enter</Button>
+          <Button className="text-xl " variant="ghost"><LogIn className="w-22 h-22" />Enter</Button>
           </Link>
         </div>
       </main>
