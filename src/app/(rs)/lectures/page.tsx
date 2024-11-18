@@ -95,7 +95,7 @@ export default function Lectures() {
           </div>
         </div>
       </div>
-      <h1 className="text-2xl md:text-4xl font-bold mt-8 md:mt-14 mb-6 md:mb-8">Vorträge</h1>
+      <h1 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-white mt-8 md:mt-14 mb-6 md:mb-8">Vorträge</h1>
       <div className="w-full max-w-4xl mx-auto">
         <ScrollText sections={lectureSections}/>
       </div>
