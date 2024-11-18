@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Beinsa Projekt",
-  description: "Vorträge und mehr von Beinsa Duno",
+  description: "Auf der Webseite finden Sie Vörträge, Bücher und Musik des spirituellen Lehrers Petar Danov.",
 };
 
 export default function RootLayout({
@@ -42,4 +42,30 @@ export default function RootLayout({
       </body>
     </html>
   );
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    metadataBase: new URL("https://beins.de"),
+    title: "Beinsa Project",
+    description:
+      "Auf der Webseite finden Sie Vörträge, Bücher und Musik des spirituellen Lehrers Petar Danov.",
+    openGraph: {
+      title: "Beinsa Project",
+      description:
+        "Auf der Webseite finden Sie Vörträge, Bücher und Musik des spirituellen Lehrers Petar Danov.",
+      type: "website",
+      url: "https://beinsa.de",
+      siteName: "Beinsa Project",
+      images: "opengraph-image.png",
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@beinsa",
+      title: "Beinsa Project",
+      description:
+        "Auf der Webseite finden Sie Vörträge, Bücher und Musik vom spirituellen Lehrer Petar Danov.",
+      images: "opengraph-image.png",
+    },
+  };
 }
