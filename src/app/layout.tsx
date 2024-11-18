@@ -15,11 +15,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Beinsa Projekt",
-  description: "Auf der Webseite finden Sie Vörträge, Bücher und Musik des spirituellen Lehrers Petar Danov.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
