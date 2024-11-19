@@ -21,18 +21,18 @@ export async function generateMetadata(): Promise<Metadata> {
     description:
       "Auf der Webseite finden Sie Vörträge, Bücher und Musik des spirituellen Lehrers Petar Danov.",
     openGraph: {
-      title: "Beinsa Project",
+      title: "Beinsa Projekt",
       description:
         "Auf der Webseite finden Sie Vörträge, Bücher und Musik des spirituellen Lehrers Petar Danov.",
       type: "website",
       url: "https://beinsa.de",
-      siteName: "Beinsa Project",
+      siteName: "Beinsa Projekt",
       images: "opengraph-image.png",
     },
     twitter: {
       card: "summary_large_image",
       site: "@beinsa",
-      title: "Beinsa Project",
+      title: "Beinsa Projekt",
       description:
         "Auf der Webseite finden Sie Vörträge, Bücher und Musik vom spirituellen Lehrer Petar Danov.",
       images: "opengraph-image.png",
