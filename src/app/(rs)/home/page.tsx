@@ -4,10 +4,6 @@ import { useState, useMemo } from "react";
 import { BookCard } from "./components/BookCard";
 import { DashboardHeader } from "./components/DashboardHeader";
 
-const metadata = {
-  title: "Vorträge",
-};
-
 // Sample data structure with books
 const booksByGenre = {
   "Frühe Vorträge": [
@@ -180,23 +176,6 @@ const booksByGenre = {
   ],
 };
 
-// Define unique background colors for each genre
-const genreColors = {
-  "Frühe Vorträge": "bg-sky-50",
-  Sonntagsvorträge: "bg-purple-50",
-  Morgenwort: "bg-red-50",
-  "Rila Vorträge": "bg-pink-50",
-  Jugendokkultklasse: "bg-amber-50",
-  "Allgemeine Okkultklasse": "bg-emerald-50",
-  Zusammenkuftsvorträge: "bg-indigo-50",
-  "Außerlplanmäßige Vorträge": "bg-violet-50",
-  "Letztes Wort": "bg-blue-50",
-  Jugendzusammenkunftsvorträge: "bg-orange-50",
-  "Klasse der Tugenden": "bg-teal-50",
-  "Vorträge vor den Schwestern": "bg-cyan-50",
-  "Vorträge von den Leitern": "bg-yellow-50",
-};
-
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortOrder, setSortOrder] = useState("oldest");
@@ -252,7 +231,7 @@ export default function Home() {
     }, {});
 
     return result;
-  }, [booksByGenre, selectedCategory, searchQuery, sortOrder]);
+  }, [selectedCategory, searchQuery, sortOrder]);
 
   return (
     <div className="min-h-screen bg-background dark:bg-slate-950 p-3 sm:p-6 lg:p-8">
@@ -271,7 +250,6 @@ export default function Home() {
               key={genre}
               genre={genre}
               books={books}
-              colorClass={genreColors[genre as keyof typeof genreColors]}
             />
           ))}
         </div>

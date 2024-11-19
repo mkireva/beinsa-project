@@ -15,10 +15,9 @@ interface Book {
 interface BookCardProps {
   genre: string;
   books: Book[];
-  colorClass: string;
 }
 
-export function BookCard({ genre, books, colorClass }: BookCardProps) {
+export function BookCard({ genre, books }: BookCardProps) {
   return (
     <Card
       className={`w-full ${
