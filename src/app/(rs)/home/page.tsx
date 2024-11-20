@@ -129,7 +129,7 @@ const booksByGenre = {
     { title: "Deep Work", year: { year: 1960, month: 5, day: 11 } },
     { title: "Atomic Habits", year: { year: 1961, month: 6, day: 13 } },
   ],
-  Jugendzusammenkunftsvorträge: [
+  "Vorträge bei den Jugenzusammenkünften": [
     { title: "Steve Jobs", year: { year: 1962, month: 7, day: 15 } },
     { title: "Long Walk to Freedom", year: { year: 1963, month: 8, day: 17 } },
     {
