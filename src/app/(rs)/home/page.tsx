@@ -23,7 +23,7 @@ const booksByGenre = {
     { title: "Foundation", year: { year: 1906, month: 1, day: 1 } },
     { title: "Neuromancer", year: { year: 1907, month: 2, day: 3 } },
   ],
-  Sonntagsvorträge: [
+  "Sonntagsvorträge": [
     { title: "The Lord of the Rings", year: { year: 1914, month: 9, day: 7 } },
     { title: "A Game of Thrones", year: { year: 1915, month: 10, day: 15 } },
     { title: "The Name of the Wind", year: { year: 1916, month: 11, day: 23 } },
@@ -34,7 +34,7 @@ const booksByGenre = {
     { title: "A Game of Thrones", year: { year: 1918, month: 1, day: 29 } },
     { title: "The Name of the Wind", year: { year: 1919, month: 2, day: 1 } },
   ],
-  Morgenwort: [
+  "Morgenwort": [
     { title: "The Da Vinci Code", year: { year: 1920, month: 1, day: 5 } },
     { title: "Gone Girl", year: { year: 1921, month: 2, day: 18 } },
     {
@@ -56,7 +56,7 @@ const booksByGenre = {
     { title: "Outlander", year: { year: 1930, month: 11, day: 11 } },
     { title: "The Notebook", year: { year: 1931, month: 12, day: 13 } },
   ],
-  Jugendokkultklasse: [
+  "Jugendokkultklasse": [
     { title: "Wolf Hall", year: { year: 1932, month: 1, day: 15 } },
     { title: "The Book Thief", year: { year: 1933, month: 2, day: 17 } },
     {
@@ -84,7 +84,7 @@ const booksByGenre = {
       year: { year: 1943, month: 12, day: 7 },
     },
   ],
-  Zusammenkuftsvorträge: [
+  "Zusammenkunftsvorträge": [
     { title: "Beyond Good and Evil", year: { year: 1944, month: 1, day: 9 } },
     { title: "The Republic", year: { year: 1945, month: 2, day: 11 } },
     { title: "Meditations", year: { year: 1946, month: 3, day: 13 } },
@@ -214,9 +214,9 @@ export default function Home() {
               new Date(b.year.year, b.year.month - 1, b.year.day).getTime()
             );
           case "title-asc":
-            return a.title.localeCompare(b.title, 'de');
+            return a.title.localeCompare(b.title, "de");
           case "title-desc":
-            return b.title.localeCompare(a.title, 'de');
+            return b.title.localeCompare(a.title, "de");
           default:
             return 0;
         }
@@ -246,11 +246,7 @@ export default function Home() {
         />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
           {Object.entries(filteredAndSortedBooks).map(([genre, books]) => (
-            <BookCard
-              key={genre}
-              genre={genre}
-              books={books}
-            />
+            <BookCard key={genre} genre={genre} books={books} />
           ))}
         </div>
       </div>

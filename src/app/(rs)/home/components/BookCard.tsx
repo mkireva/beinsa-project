@@ -17,6 +17,51 @@ interface BookCardProps {
   books: Book[];
 }
 
+const getGenreAbbreviation = (genre: string) => {
+  // Normalize the genre name to handle slight variations
+  if (genre.startsWith("Zusammenkunft")) {
+    return "ZKV";
+  }
+  
+  switch (genre) {
+    // Okkult Classes
+    case "Jugendokkultklasse":
+      return "JOK";
+    case "Allgemeine Okkultklasse":
+      return "AOK";
+      
+    // Regular Lectures
+    case "Frühe Vorträge":
+      return "FV";
+    case "Sonntagsvorträge":
+      return "SV";
+    case "Rila Vorträge":
+      return "RV";
+    case "Morgenwort":
+      return "MW";
+    case "Spezialvorträge":
+      return "SpV";
+    case "Außerlplanmäßige Vorträge":
+      return "APV";
+    case "Letztes Wort":
+      return "LW";
+    
+    // Special Groups
+    case "Vorträge bei den Jugenzusammenkünften":
+      return "VJZ";
+    case "Klasse der Tugenden":
+      return "KdT";
+    case "Vorträge vor den Schwestern":
+      return "VvS";
+    case "Vorträge von den Leitern":
+      return "VvL";
+    case "Besondere Vorträge":
+      return "BV";
+    default:
+      return genre.substring(0, 3).toUpperCase();
+  }
+};
+
 export function BookCard({ genre, books }: BookCardProps) {
   return (
     <Card
@@ -117,7 +162,7 @@ export function BookCard({ genre, books }: BookCardProps) {
                 : "border-sky-700 text-sky-700 dark:border-sky-400 dark:text-sky-400"
             }`}
           >
-            {books.length} {books.length === 1 ? "Titel" : "Titel"}
+            {books.length} {getGenreAbbreviation(genre)}
           </Badge>
         </div>
       </CardHeader>
