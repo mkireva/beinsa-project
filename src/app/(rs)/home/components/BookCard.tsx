@@ -47,7 +47,7 @@ const getGenreAbbreviation = (genre: string) => {
       return "LW";
 
     // Special Groups
-    case "Vorträge bei den Jugenzusammenkünften":
+    case "Jugenzusammenkünfte":
       return "VJZ";
     case "Klasse der Tugenden":
       return "KdT";
@@ -84,7 +84,7 @@ export function BookCard({ genre, books }: BookCardProps) {
           ? "bg-violet-50/30 dark:bg-violet-900/20"
           : genre === "Letztes Wort"
           ? "bg-blue-50/30 dark:bg-blue-900/20"
-          : genre === "Vorträge bei den Jugenzusammenkünften"
+          : genre === "Jugenzusammenkünfte"
           ? "bg-orange-50/30 dark:bg-orange-900/20"
           : genre === "Klasse der Tugenden"
           ? "bg-teal-50/30 dark:bg-teal-900/20"
@@ -116,7 +116,7 @@ export function BookCard({ genre, books }: BookCardProps) {
               ? "text-violet-700 dark:text-violet-400"
               : genre === "Letztes Wort"
               ? "text-blue-700 dark:text-blue-400"
-              : genre === "Vorträge bei den Jugenzusammenkünften"
+              : genre === "Jugenzusammenkünfte"
               ? "text-orange-700 dark:text-orange-400"
               : genre === "Klasse der Tugenden"
               ? "text-teal-700 dark:text-teal-400"
@@ -151,7 +151,7 @@ export function BookCard({ genre, books }: BookCardProps) {
                 ? "border-violet-700 text-violet-700 dark:border-violet-400 dark:text-violet-400"
                 : genre === "Letztes Wort"
                 ? "border-blue-700 text-blue-700 dark:border-blue-400 dark:text-blue-400"
-                : genre === "Vorträge bei den Jugenzusammenkünften"
+                : genre === "Jugenzusammenkünfte"
                 ? "border-orange-700 text-orange-700 dark:border-orange-400 dark:text-orange-400"
                 : genre === "Klasse der Tugenden"
                 ? "border-teal-700 text-teal-700 dark:border-teal-400 dark:text-teal-400"
@@ -196,7 +196,7 @@ export function BookCard({ genre, books }: BookCardProps) {
                   ? "bg-violet-100/50 hover:bg-violet-100/70 dark:bg-violet-800/30 dark:hover:bg-violet-800/50"
                   : genre === "Letztes Wort"
                   ? "bg-blue-100/50 hover:bg-blue-100/70 dark:bg-blue-800/30 dark:hover:bg-blue-800/50"
-                  : genre === "Vorträge bei den Jugenzusammenkünften"
+                  : genre === "Jugenzusammenkünfte"
                   ? "bg-orange-100/50 hover:bg-orange-100/70 dark:bg-orange-800/30 dark:hover:bg-orange-800/50"
                   : genre === "Klasse der Tugenden"
                   ? "bg-teal-100/50 hover:bg-teal-100/70 dark:bg-teal-800/30 dark:hover:bg-teal-800/50"
@@ -227,7 +227,7 @@ export function BookCard({ genre, books }: BookCardProps) {
                     ? "text-violet-700 dark:text-violet-300"
                     : genre === "Letztes Wort"
                     ? "text-blue-700 dark:text-blue-300"
-                    : genre === "Vorträge bei den Jugenzusammenkünften"
+                    : genre === "Jugenzusammenkünfte"
                     ? "text-orange-700 dark:text-orange-300"
                     : genre === "Klasse der Tugenden"
                     ? "text-teal-700 dark:text-teal-300"
@@ -259,7 +259,7 @@ export function BookCard({ genre, books }: BookCardProps) {
                         ? "bg-violet-100 text-violet-700 dark:bg-violet-900/50 dark:text-violet-300"
                         : genre === "Letztes Wort"
                         ? "bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300"
-                        : genre === "Vorträge bei den Jugenzusammenkünften"
+                        : genre === "Jugenzusammenkünfte"
                         ? "bg-orange-100 text-orange-700 dark:bg-orange-900/50 dark:text-orange-300"
                         : genre === "Klasse der Tugenden"
                         ? "bg-teal-100 text-teal-700 dark:bg-teal-900/50 dark:text-teal-300"
@@ -292,7 +292,7 @@ export function BookCard({ genre, books }: BookCardProps) {
                         ? "hover:text-violet-500 dark:hover:text-violet-200"
                         : genre === "Letztes Wort"
                         ? "hover:text-blue-500 dark:hover:text-blue-200"
-                        : genre === "Vorträge bei den Jugenzusammenkünften"
+                        : genre === "Jugenzusammenkünfte"
                         ? "hover:text-orange-500 dark:hover:text-orange-200"
                         : genre === "Klasse der Tugenden"
                         ? "hover:text-teal-500 dark:hover:text-teal-200"

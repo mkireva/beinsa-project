@@ -3,7 +3,6 @@
 import { useState, useMemo } from "react";
 import { BookCard } from "./components/BookCard";
 import { DashboardHeader } from "./components/DashboardHeader";
-
 // Sample data structure with books
 const booksByGenre = {
   "Frühe Vorträge": [
@@ -23,7 +22,7 @@ const booksByGenre = {
     { title: "Foundation", year: { year: 1906, month: 1, day: 1 } },
     { title: "Neuromancer", year: { year: 1907, month: 2, day: 3 } },
   ],
-  "Sonntagsvorträge": [
+  Sonntagsvorträge: [
     { title: "The Lord of the Rings", year: { year: 1914, month: 9, day: 7 } },
     { title: "A Game of Thrones", year: { year: 1915, month: 10, day: 15 } },
     { title: "The Name of the Wind", year: { year: 1916, month: 11, day: 23 } },
@@ -34,7 +33,7 @@ const booksByGenre = {
     { title: "A Game of Thrones", year: { year: 1918, month: 1, day: 29 } },
     { title: "The Name of the Wind", year: { year: 1919, month: 2, day: 1 } },
   ],
-  "Morgenwort": [
+  Morgenwort: [
     { title: "The Da Vinci Code", year: { year: 1920, month: 1, day: 5 } },
     { title: "Gone Girl", year: { year: 1921, month: 2, day: 18 } },
     {
@@ -56,7 +55,7 @@ const booksByGenre = {
     { title: "Outlander", year: { year: 1930, month: 11, day: 11 } },
     { title: "The Notebook", year: { year: 1931, month: 12, day: 13 } },
   ],
-  "Jugendokkultklasse": [
+  Jugendokkultklasse: [
     { title: "Wolf Hall", year: { year: 1932, month: 1, day: 15 } },
     { title: "The Book Thief", year: { year: 1933, month: 2, day: 17 } },
     {
@@ -84,7 +83,7 @@ const booksByGenre = {
       year: { year: 1943, month: 12, day: 7 },
     },
   ],
-  "Zusammenkunftsvorträge": [
+  Zusammenkunftsvorträge: [
     { title: "Beyond Good and Evil", year: { year: 1944, month: 1, day: 9 } },
     { title: "The Republic", year: { year: 1945, month: 2, day: 11 } },
     { title: "Meditations", year: { year: 1946, month: 3, day: 13 } },
@@ -129,7 +128,7 @@ const booksByGenre = {
     { title: "Deep Work", year: { year: 1960, month: 5, day: 11 } },
     { title: "Atomic Habits", year: { year: 1961, month: 6, day: 13 } },
   ],
-  "Vorträge bei den Jugenzusammenkünften": [
+  Jugenzusammenkünfte: [
     { title: "Steve Jobs", year: { year: 1962, month: 7, day: 15 } },
     { title: "Long Walk to Freedom", year: { year: 1963, month: 8, day: 17 } },
     {
