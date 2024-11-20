@@ -75,7 +75,7 @@ export function Header() {
               <h1 className="hidden sm:block text-sm  m-0 mt-1">Blog</h1>
             </Link>
           </div>
-          <NavButton href="/users" label="users" icon={UsersRound} className="hidden sm:block" />
+          <NavButton href="/users" label="users" icon={UsersRound}  />
           <ThemeToggle />
           <div className="block sm:hidden">
             <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
