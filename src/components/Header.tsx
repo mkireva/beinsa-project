@@ -29,7 +29,7 @@ export function Header() {
           ></Link>
         </div>
         <div className="flex items-center">
-          <div className="flex  items-center">
+          <div className="hidden sm:flex items-center">
             <Link
               href="/bio"
               className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
@@ -75,9 +75,9 @@ export function Header() {
               <h1 className="hidden sm:block text-sm  m-0 mt-1">Blog</h1>
             </Link>
           </div>
-          <NavButton href="/users" label="users" icon={UsersRound} />
+          <NavButton href="/users" label="users" icon={UsersRound} className="hidden sm:block" />
           <ThemeToggle />
-          <div className=" items-center gap-2 block sm:hidden ">
+          <div className="block sm:hidden">
             <DropdownMenu open={menuOpen} onOpenChange={setMenuOpen}>
               <DropdownMenuTrigger asChild>
                 <Button
