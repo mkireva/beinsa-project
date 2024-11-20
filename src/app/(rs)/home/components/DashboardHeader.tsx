@@ -38,10 +38,10 @@ export function DashboardHeader({
           <div className="flex items-center gap-2 sm:gap-4 order-last sm:order-first">
             <Select onValueChange={onCategoryChange} value={selectedCategory}>
               <SelectTrigger className="w-[140px] sm:w-[180px] whitespace-nowrap py-2 text-sm sm:text-base bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700">
-                <SelectValue placeholder="All Categories" />
+                <SelectValue placeholder="Alle Kategorien" />
               </SelectTrigger>
               <SelectContent className="bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700">
-                <SelectItem value="all">All Categories</SelectItem>
+                <SelectItem value="all">Alle Kategorien</SelectItem>
                 {categories.map((category) => (
                   <SelectItem key={category} value={category}>
                     {category}
