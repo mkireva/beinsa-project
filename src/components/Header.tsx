@@ -38,11 +38,11 @@ export function Header() {
               <h1 className="hidden sm:block text-sm  m-0 mt-1">Biographie</h1>
             </Link>
             <Link
-              href="/lectures"
+              href="/teaching"
               className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
-              title="lectures"
+              title="Lehre"
             >
-              <h1 className="hidden sm:block text-sm  m-0 mt-1">Vorträge</h1>
+              <h1 className="hidden sm:block text-sm  m-0 mt-1">Lehre</h1>
             </Link>
             <Link
               href="/music"
@@ -54,7 +54,7 @@ export function Header() {
             <Link
               href="/paneurhythmie"
               className="flex justify-center items-center gap-2 ml-0 whitespace-nowrap rounded-md text-sm  font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-2 py-1"
-              title="lectures"
+              title="paneurhythmie"
             >
               <h1 className="hidden sm:block text-sm  m-0 mt-1">
                 Paneurhythmie
@@ -114,12 +114,12 @@ export function Header() {
                 </DropdownMenuItem>
                 <DropdownMenuItem onSelect={handleMenuClose}>
                   <Link
-                    href="/lectures"
+                    href="/teaching"
                     className="flex w-full items-center justify-between py-2 px-4 text-sm  font-medium hover:bg-muted"
                     prefetch={false}
                     onClick={handleMenuClose}
                   >
-                    Vorträge
+                    Lehre
                     <ChevronRightIcon className="h-4 w-4" />
                   </Link>
                 </DropdownMenuItem>

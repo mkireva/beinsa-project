@@ -3,7 +3,7 @@ import {ScrollText, Section} from "@/components/SectionScroll";
 import { cn } from "@/lib/utils";
 
 export const metadata = {
-  title: "Vorträge",
+  title: "Lehre",
 };
 
 
@@ -69,7 +69,7 @@ const lectureSections: Section[] = [
   
 ];
 
-export default function Lectures() {
+export default function Teaching() {
   
   return (
     <div className="flex flex-col items-center justify-center py-6 md:py-10 px-4 md:px-8">
@@ -95,7 +95,7 @@ export default function Lectures() {
           </div>
         </div>
       </div>
-      <h1 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-white mt-8 md:mt-14 mb-6 md:mb-8">Vorträge</h1>
+      <h1 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-white mt-8 md:mt-14 mb-6 md:mb-8">Lehre</h1>
       <div className="w-full max-w-4xl mx-auto">
         <ScrollText sections={lectureSections}/>
       </div>
