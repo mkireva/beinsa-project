@@ -22,14 +22,14 @@ const getGenreAbbreviation = (genre: string) => {
   if (genre.startsWith("Zusammenkunft")) {
     return "ZKV";
   }
-  
+
   switch (genre) {
     // Okkult Classes
     case "Jugendokkultklasse":
       return "JOK";
     case "Allgemeine Okkultklasse":
       return "AOK";
-      
+
     // Regular Lectures
     case "Frühe Vorträge":
       return "FV";
@@ -45,7 +45,7 @@ const getGenreAbbreviation = (genre: string) => {
       return "APV";
     case "Letztes Wort":
       return "LW";
-    
+
     // Special Groups
     case "Vorträge bei den Jugenzusammenkünften":
       return "VJZ";
