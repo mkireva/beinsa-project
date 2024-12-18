@@ -55,10 +55,10 @@ export function DashboardHeader({
                 <SelectValue placeholder="Sort by" />
               </SelectTrigger>
               <SelectContent className="bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700">
-                <SelectItem value="newest">Newest First</SelectItem>
-                <SelectItem value="oldest">Oldest First</SelectItem>
-                <SelectItem value="title-asc">Title A-Z</SelectItem>
-                <SelectItem value="title-desc">Title Z-A</SelectItem>
+                <SelectItem value="newest">Neueste</SelectItem>
+                <SelectItem value="oldest">Älteste</SelectItem>
+                <SelectItem value="title-asc">Titel A-Z</SelectItem>
+                <SelectItem value="title-desc">Titel Z-A</SelectItem>
               </SelectContent>
             </Select>
           </div>
