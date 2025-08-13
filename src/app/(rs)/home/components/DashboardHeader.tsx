@@ -26,10 +26,10 @@ export function DashboardHeader({
   sortOrder
 }: DashboardHeaderProps) {
   return (
-    <div className="mb-6 bg-gradient-to-r from-white via-slate-50 to-white dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 shadow-sm border dark:border-slate-700 rounded-lg p-3 sm:p-4">
+    <div className="mb-6 bg-linear-to-r from-white via-slate-50 to-white dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 shadow-xs border dark:border-slate-700 rounded-lg p-3 sm:p-4">
       <div className="flex flex-col gap-3 sm:gap-4">
         <div className="flex items-center justify-between border-b dark:border-slate-700 pb-3 sm:pb-4">
-          <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-sky-800 to-sky-600 dark:from-sky-400 dark:to-sky-200 bg-clip-text text-transparent drop-shadow-sm tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-bold bg-linear-to-r from-sky-800 to-sky-600 dark:from-sky-400 dark:to-sky-200 bg-clip-text text-transparent drop-shadow-xs tracking-tight">
             Vorträge
           </h1>
         </div>

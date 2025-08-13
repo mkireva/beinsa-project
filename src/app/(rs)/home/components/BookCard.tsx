@@ -177,7 +177,7 @@ export function BookCard({ genre, books }: BookCardProps) {
           return (
             <div
               key={index}
-              className={`rounded-md p-2 sm:p-3 backdrop-blur-sm transition-all duration-300 ease-in-out transform hover:-translate-y-0.5 hover:shadow-md ${
+              className={`rounded-md p-2 sm:p-3 backdrop-blur-xs transition-all duration-300 ease-in-out transform hover:-translate-y-0.5 hover:shadow-md ${
                 genre === "Jugendokkultklasse"
                   ? "bg-yellow-100/50 hover:bg-yellow-100/70 dark:bg-yellow-800/30 dark:hover:bg-yellow-800/50"
                   : genre === "Frühe Vorträge"
@@ -240,7 +240,7 @@ export function BookCard({ genre, books }: BookCardProps) {
               >
                 <div className="flex items-center gap-2 min-w-0 w-full sm:w-auto">
                   <span
-                    className={`inline-flex items-center justify-center w-6 h-6 rounded-full text-sm flex-shrink-0 ${
+                    className={`inline-flex items-center justify-center w-6 h-6 rounded-full text-sm shrink-0 ${
                       genre === "Jugendokkultklasse"
                         ? "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/50 dark:text-yellow-300"
                         : genre === "Frühe Vorträge"

@@ -15,7 +15,7 @@ interface BookCardProps {
 export function BookCard({ title, author, year, coverUrl }: BookCardProps) {
   return (
     <Card className="overflow-hidden group hover:shadow-lg transition-all duration-300">
-      <div className="aspect-[1/1] relative overflow-hidden bg-neutral-100 dark:bg-neutral-800">
+      <div className="aspect-square relative overflow-hidden bg-neutral-100 dark:bg-neutral-800">
         <Image
           src={coverUrl}
           alt={title}
@@ -23,7 +23,7 @@ export function BookCard({ title, author, year, coverUrl }: BookCardProps) {
           className="object-cover transition-transform duration-300 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-zinc/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute inset-0 bg-linear-to-t from-zinc/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
       <div className="p-4 space-y-3">
         <div className="space-y-1">

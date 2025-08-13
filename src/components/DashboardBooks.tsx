@@ -22,10 +22,10 @@ export function DashboardCard({
     <Card className={cn(
       "relative overflow-hidden border-none group",
       "transition-all duration-300 hover:scale-[1.02] hover:shadow-lg",
-      "bg-gradient-to-br from-white/90 to-white/50 dark:from-neutral-900/90 dark:to-neutral-900/50",
+      "bg-linear-to-br from-white/90 to-white/50 dark:from-neutral-900/90 dark:to-neutral-900/50",
       color
     )}>
-      <div className="absolute inset-0 bg-gradient-to-br from-transparent to-black/5 dark:to-white/5" />
+      <div className="absolute inset-0 bg-linear-to-br from-transparent to-black/5 dark:to-white/5" />
       <Book 
         className={cn(
           "absolute top-6 right-6 w-16 h-16 opacity-10 transition-transform duration-300",

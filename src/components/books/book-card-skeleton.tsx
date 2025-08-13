@@ -4,7 +4,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 export function BookCardSkeleton() {
   return (
     <Card className="overflow-hidden">
-      <div className="aspect-[1/1] relative bg-neutral-100 dark:bg-neutral-800">
+      <div className="aspect-square relative bg-neutral-100 dark:bg-neutral-800">
         <Skeleton className="h-full w-full" />
       </div>
       <div className="p-4 space-y-3">

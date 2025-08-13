@@ -194,7 +194,7 @@ export function Timeline() {
         Biographie
       </h2>
       <div className="relative">
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gradient-to-b from-primary/80 via-primary/50 to-primary/20" />
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-linear-to-b from-primary/80 via-primary/50 to-primary/20" />
 
         {timelineEvents.map((event, index) => (
           <TimelineEvent key={index} {...event} index={index} />
