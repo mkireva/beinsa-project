@@ -26,7 +26,7 @@ export function BookGrid() {
         <AlertCircle className="h-4 w-4" />
         <AlertTitle>Error</AlertTitle>
         <AlertDescription className="flex items-center gap-4">
-          Failed to load books. 
+          Failed to load books.
           <Button variant="outline" size="sm" onClick={retry}>
             Try Again
           </Button>
@@ -44,6 +44,7 @@ export function BookGrid() {
           author={book.author}
           year={book.year}
           coverUrl={book.coverUrl}
+          downloadUrl={book.downloadUrl}
         />
       ))}
     </div>

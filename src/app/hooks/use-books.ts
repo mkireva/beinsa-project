@@ -8,6 +8,7 @@ interface Book {
   author: string;
   year: number;
   coverUrl: string;
+  downloadUrl?: string; // Optional field for download URL
 }
 
 export function useBooks() {
@@ -30,15 +31,18 @@ export function useBooks() {
           author: "Beinsa Duno",
           year: 2015,
           coverUrl:
-            "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQwmki4XyFK2Nv4dsDCHg83rpqubyaWhYtL7cV",
+          downloadUrl:
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQAHbxEdiJ1DykdOfsG3XcY8pmTVbt9N4UQrle",
         },
         {
           id: "2",
           title: "Gebetbuch",
           author: "Beinsa Duno",
-          year: 2018,
+          year: 2015,
           coverUrl:
-            "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQVWxGITmkwsCUry048b3QIelhOJqxfNZj2BDT",
+          downloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQQ5DaI6VU6D2ljuwxbRIfyrVpQ0N8JvikaHom"
         },
         {
           id: "3",
@@ -54,7 +58,8 @@ export function useBooks() {
           author: "Beinsa Duno",
           year: 2019,
           coverUrl:
-            "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQ4h9VWsACpuKxrgECVa8tYeJWRfUT4jD5yv3B",
+          downloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQtSbIpVkR1zQLchfZbJiNH7MoP0DKx9vygrae"
         },
         {
           id: "5",

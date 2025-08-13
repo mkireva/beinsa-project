@@ -13,7 +13,7 @@ export default function Downloads() {
            Bücher
           </h1>
           <p className="text-muted-foreground">
-            Entdecken Sie Ihr nächstes Lieblingsbuch aus unserer Sammlung
+            Entdecken Sie Ihr nächstes Lieblingsbuch aus unserer Sammlung.
           </p>
         </div>
         <div className="p-6 md:p-8 lg:p-12 bg-zinc-100/50 dark:bg-card backdrop-blur-md rounded-xl">
