@@ -42,7 +42,8 @@ export function useBooks() {
           year: 2015,
           coverUrl:
             "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQVWxGITmkwsCUry048b3QIelhOJqxfNZj2BDT",
-          downloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQQ5DaI6VU6D2ljuwxbRIfyrVpQ0N8JvikaHom"
+          downloadUrl:
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQQ5DaI6VU6D2ljuwxbRIfyrVpQ0N8JvikaHom",
         },
         {
           id: "3",
@@ -59,7 +60,8 @@ export function useBooks() {
           year: 2019,
           coverUrl:
             "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQ4h9VWsACpuKxrgECVa8tYeJWRfUT4jD5yv3B",
-          downloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQtSbIpVkR1zQLchfZbJiNH7MoP0DKx9vygrae"
+          downloadUrl:
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQtSbIpVkR1zQLchfZbJiNH7MoP0DKx9vygrae",
         },
         {
           id: "5",
@@ -68,7 +70,8 @@ export function useBooks() {
           year: 2017,
           coverUrl:
             "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQIlOUZyMDPEDmUC0VhgyjdRa5Ofx17wQcS2LT",
-          downloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQQTDTrpoVU6D2ljuwxbRIfyrVpQ0N8JvikaHo"
+          downloadUrl:
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQQTDTrpoVU6D2ljuwxbRIfyrVpQ0N8JvikaHo",
         },
         {
           id: "6",
@@ -101,7 +104,8 @@ export function useBooks() {
           year: 2025,
           coverUrl:
             "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQBc5XK8zbIWPBD3p9k18xHGqQZ7nMmaJfLFXT",
-          dowloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQprkJagP6UYKsF3r1AkaV0uJXMbntdQ5PiW9e"
+           downloadUrl:
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQprkJagP6UYKsF3r1AkaV0uJXMbntdQ5PiW9e",
         },
       ].sort((a, b) => b.year - a.year);
 
@@ -123,6 +127,4 @@ export function useBooks() {
     error,
     retry: fetchBooks,
   };
-
-
 }
