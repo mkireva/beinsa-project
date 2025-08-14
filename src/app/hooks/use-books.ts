@@ -100,7 +100,8 @@ export function useBooks() {
           author: "Beinsa Duno",
           year: 2016,
           coverUrl:
-            "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=80",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQBc5XK8zbIWPBD3p9k18xHGqQZ7nMmaJfLFXT",
+          dowloadUrl: "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQprkJagP6UYKsF3r1AkaV0uJXMbntdQ5PiW9e"
         },
       ].sort((a, b) => b.year - a.year);
 
