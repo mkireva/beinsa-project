@@ -103,9 +103,9 @@ export function useBooks() {
           author: "Beinsa Duno",
           year: 2025,
           coverUrl:
-            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQBc5XK8zbIWPBD3p9k18xHGqQZ7nMmaJfLFXT",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQww18i3yFK2Nv4dsDCHg83rpqubyaWhYtL7cV",
            downloadUrl:
-            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQprkJagP6UYKsF3r1AkaV0uJXMbntdQ5PiW9e",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQyh3czh7CaQ7o9rThdwl35sgmIfjRvKiPHELN",
         },
       ].sort((a, b) => b.year - a.year);
 
