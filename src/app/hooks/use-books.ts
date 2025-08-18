@@ -103,7 +103,7 @@ export function useBooks() {
           author: "Beinsa Duno",
           year: 2025,
           coverUrl:
-            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQww18i3yFK2Nv4dsDCHg83rpqubyaWhYtL7cV",
+            "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQVKQA4TmkwsCUry048b3QIelhOJqxfNZj2BDT",
            downloadUrl:
             "https://9avmcc5vs8.ufs.sh/f/XpskSe8ltAOQyh3czh7CaQ7o9rThdwl35sgmIfjRvKiPHELN",
         },
