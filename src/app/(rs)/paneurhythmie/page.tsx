@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ScrollText, Section } from "@/components/SectionScroll";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 
 export const metadata = {
   title: "Paneurhythmie",
