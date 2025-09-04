@@ -64,7 +64,7 @@ export function TableOfContents() {
             <CardHeader className="pb-3">
                 <CardTitle className="text-sm font-medium flex items-center gap-2">
                     <List className="h-4 w-4" />
-                    Table of Contents
+                    Inhalt
                 </CardTitle>
             </CardHeader>
             <CardContent className="pt-0">
